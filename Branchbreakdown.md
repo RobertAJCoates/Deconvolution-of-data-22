@@ -1,3 +1,4 @@
 # What does each branch of this repository contain?
 
-[a related branch](Info)- Self explaintory
+[Info](github.com/RobertAJCoates/Deconvolution-of-data-/tree/Info)- Self explainatory
+
