@@ -1,7 +1,6 @@
 # Deconvolution of data 
 Author: Bobby Coates
 
-This repository consists of several files used to deconvolute data whether pre used data or data collected in an experimental setting. 
+This repository consists of several files used to deconvolute data whether 2nd hand data or data collected 1st hand in an experimental setting.
 
-To start the first sub section of this repository deals with attempts given to recopparating data using several different methods. All code is written using python and additional python libraries used are cited as well as sources for data used are cited.
-
+Information on what each branch of this repository contains can be found in [a relative link](Branchbreakdown.md)
