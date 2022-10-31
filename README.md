@@ -5,6 +5,4 @@ This repository consists of several files used to deconvolute data whether 2nd h
 
 Information on what each branch of this repository contains can be found [here](Branchbreakdown.md)
 
-\### Project Status
-- [x]
-- []
+<strong>Project Status</strong>
