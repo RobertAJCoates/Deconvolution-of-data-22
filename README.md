@@ -1,6 +1,6 @@
 # Deconvolution of data 
 
-<strong>Project Aims<strong/>:<br/>
+<strong>Project Aims</strong>:<br/>
 
 Show that deconvoluting data by brute force is not viable due to <br/> (a) large time to obtain original data <br/> (b) low accuracy in replicating original data <br/>
 Explore methods
