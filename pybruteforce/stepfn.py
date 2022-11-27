@@ -20,5 +20,4 @@ axs[1,1].plot(yyfft)
 axs[1,0].plot(Fyy)
 plt.savefig('stepfntest.png')
 plt.show()
-
 #add guassian noise
