@@ -1,5 +1,5 @@
 import numpy as np, matplotlib.pyplot as plt
-from cmath import exp,pi,acos
+from cmath import exp,pi
 #test fn: step fn; create fn using np arrays
 n=16
 x = np.arange(0,n,1)
@@ -8,8 +8,12 @@ for i in np.arange(3,13,1):
     y[i] = 2
 #calculate convolution of step fn (F is fourier) 
 #write step fn above y' in terms of t instead of x and verfiy y',t equic to y,x
-t = acos(x) #parametise
-print(t)
+freq = x.size/(2*pi)
+print(freq)
+t = np.zeros(0)
+for i in np.arange(0,n,1):    
+    t[i] = (x[i] * 2 * pi)
+    
 t_fft = np.fft.fft(t)
 y_fft = np.fft.fft(y)#--->f(x)
 ytfft = y_fft * t_fft #---> F(f*g) = Ff(x) * Fg(t) ---->convolution 
