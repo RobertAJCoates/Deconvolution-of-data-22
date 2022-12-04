@@ -3,7 +3,8 @@ import numpy as np, matplotlib.pyplot as plt
 from testfn import n1
 freq = np.pi/n1
 def g1(t):
-    return np.sin(t) 
-t = np.arange(0, n1*np.pi, freq)
-u1 = np.sin(t)
-print(u1.size, t.size)
+    return (np.cos(t))**2
+a = freq * (n1/2)
+b = a + freq
+t = np.arange(-a,a,freq/200)
+u1 = g1(t)
